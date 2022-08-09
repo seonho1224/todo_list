@@ -1,7 +1,7 @@
 from django.shortcuts import render, redirect, get_object_or_404
 from .models import Todo
 from django.utils import timezone
- 
+  
 # Create your views here.
 def index(request):
     todo_list = Todo.objects.all()

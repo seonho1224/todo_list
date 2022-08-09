@@ -17,3 +17,4 @@ def add(request):
     q = Todo(todo=request.POST.get('todo'), is_complete='0', create_date=timezone.now())
     q.save()
     return redirect('/todolist/')
+##ㅋㅋㅋ
